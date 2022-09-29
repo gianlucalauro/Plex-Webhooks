@@ -1,4 +1,12 @@
 {
+  "name": "plex_webhook",
+  "version": "1.0.0",
+  "description": "Webhook for Plex",
+  "author": "Gianluca Lauro <giangi.lauro@gmail.com>",
+  "main": "plex_webhooks.js",
+  "scripts": {
+    "start": "node plex_webhooks.js"
+  },
   "dependencies": {
     "axios": "^0.25.0",
     "express": "^4.17.2",
